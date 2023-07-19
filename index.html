@@ -1,0 +1,153 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Calculator</title>
+		<link rel="stylesheet" href="./indec.css" />
+	</head>
+	<body>
+		<h1>Calculator</h1>
+		<table>
+			<tbody>
+				<tr>
+					<td colspan="3">
+						<input
+							type="text"
+							id="dispalytext"
+							class="dispalytext" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="Enter"
+							class="enter-btn"
+							onclick="displayInputresult()" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input
+							type="button"
+							value="0"
+							class="input-btn"
+							onclick="inputValue('0')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="Clear"
+							class="input-btn"
+							onclick="clearValues()" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="Del"
+							class="input-btn"
+							onclick="deleteValue()" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="/"
+							class="input-btn"
+							onclick="inputValue('/')" />
+					</td>
+				</tr>
+
+				<tr>
+					<td>
+						<input
+							type="button"
+							value="1"
+							class="input-btn"
+							onclick="inputValue('1')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="2"
+							class="input-btn"
+							onclick="inputValue('2')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="3"
+							class="input-btn"
+							onclick="inputValue('3')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="+"
+							class="input-btn"
+							onclick="inputValue('+')" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input
+							type="button"
+							value="4"
+							class="input-btn"
+							onclick="inputValue('4')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="5"
+							class="input-btn"
+							onclick="inputValue('5')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="6"
+							class="input-btn"
+							onclick="inputValue('6')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="-"
+							class="input-btn"
+							onclick="inputValue('-')" />
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input
+							type="button"
+							value="7"
+							class="input-btn"
+							onclick="inputValue('7')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="8"
+							class="input-btn"
+							onclick="inputValue('8')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="9"
+							class="input-btn"
+							onclick="inputValue('9')" />
+					</td>
+					<td>
+						<input
+							type="button"
+							value="*"
+							class="input-btn"
+							onclick="inputValue('*')" />
+					</td>
+				</tr>
+			</tbody>
+		</table>
+	</body>
+</html>
+
+<script src="./index.js"></script>
